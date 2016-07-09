@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
-
+/* created by Sharmistha on */
 
 int main(int argc, char *argv[])
 {
@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
   }
 
  
- FILE *fp1,*fp2,*fp3;/*fp1 is filepointer to huffman table file ,fp2 is filepointer to input text file,fp3 is filepointer to output binary file*/
+ FILE *fp1,*fp2,*fp3;/*fp1 is filepointer to huffman table file , fp2 is filepointer to input text file, fp3 is filepointer to output binary file*/
  
  char codeword[32];
  char array[256][32];
